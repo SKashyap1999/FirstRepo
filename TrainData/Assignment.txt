@@ -1,0 +1,413 @@
+ASSIGNMENT-1
+ML Data Cleaning and Feature Selection
+
+In this assignment, you will use a dataset for predictive learning and check the quality of the data and determine which features are important.
+
+Answer the following questions:
+
+* What are the data types? (Only numeric and categorical)
+
+* Are there missing values?
+
+* What are the likely distributions of the numeric variables?
+
+* Which independent variables are useful to predict a target (dependent variable)? (Use at least three methods)
+
+* Which independent variables have missing data? How much? 
+
+* Do the training and test sets have the same data?
+
+* In the predictor variables independent of all the other predictor variables?
+
+* Which predictor variables are the most important?
+
+* Do the ranges of the predictor variables make sense?
+
+* What are the distributions of the predictor variables?   
+
+* Remove outliers and keep outliers (does if have an effect of the final predictive model)?
+
+* Remove 1%, 5%, and 10% of your data randomly and impute the values back using at least 3 imputation methods. How well did the methods recover the missing values?  That is remove some data, check the % error on residuals for numeric data and check for bias and variance of the error.
+
+For categorical data, calculate the accuracy and a confusion matrix.
+
+Scoring Rubric
+
+Are my answers supported with data? (20 Points)
+
+Tables, graphs, and charts must support your evaluation/answers.
+
+It MUST run in Google Collab. You will also save the Google Collab notebook as a .ipynb notebook and upload that to Canvas . (5 Points)
+
+ 
+
+Public dataset (5 Points)
+
+Pick a public dataset that can be used for Regression or Classification. You MUST get approval for your dataset from the TAs.
+
+ 
+
+What code is yours and what have you adapted? (5 Points)
+
+You must explain what code you wrote and what you have done that is different. Failure to cite ANY code will result in a zero for this section.
+
+ 
+
+Did I explain my code clearly? (15 Points) Your code review score will be scaled to a range of 0 to 10 and be used for this score.
+
+ 
+
+Did I explain my licensing clearly? (5 Points) Failure to cite a clear license will result in a zero for this section.
+
+ 
+
+Answers to listed questions (45 Points)
+
+ 
+
+* Which independent variables are useful to predict a target (dependent variable)?
+
+* Which independent variable have missing data? How much? 
+
+* Do the training and test sets have the same data?
+
+* In the predictor variables independent of all the other predictor variables?
+
+* Which predictor variables are the most important?
+
+* Do the ranges of the predictor variables make sense?
+
+* What are the distributions of the predictor variables?   
+
+
+-------------------------------------------------------------------------------------
+Assignment-2
+
+Choose One of the following:
+
+20 Exam Questions Part B
+
+Create 20, 5-point moderately hard exam questions.  You will be graded on whether your questions are related to the topics listed on the sample exam page, their correctness, and whether or not they are trivial.    
+
+ 
+
+OR
+
+Kaggle Image Dataset with at least 300 images
+
+Join the Computational Art Lab at Northeastern - Experiments in Computational Art to get an account. If you are a student at Northeastern or a recent graduate who wants to be part of the art lab, then e-mail art@coe.northeastern.edu
+
+See https://colab.research.google.com/drive/13Vpzk0bnsUFpzw5OMLv6LH1y4xef8oWk?usp=sharingLinks to an external site. for a prompt generating script.  diffusion_bot.pyDownload diffusion_bot.py
+
+Look at "Dogs versus Cats" type datasets and notebooks. https://www.kaggle.com/datasets/shaunthesheep/microsoft-catsvsdogs-datasetLinks to an external site.
+
+ 
+
+Create an image classification dataset and upload it to Kaggle along with a notebook on Kaggle classifying the images
+------------------------------------------------------------------------------------
+Assignment 3
+Crash Course in Statistical Learning Written Section
+
+Propose and get approved to write a section for the course Crash Course in Statistical Learning.
+
+The expectation to that you clearly explain something using both theory and code related to understanding and preparing data for analysis in machine learning.
+
+You MUST cite sources and the TAs will check submissions for plagiarism. It MUST you markdown and code so it can easily be added to the GitBook.
+------------------------------------------------------------------------------------
+Assignment 4
+
+Use Dall-E (or some other generative art AI ) to Create Artwork for your Medium articles.
+
+See the following article on how to do this  https://medium.com/aiguys/how-to-use-dall-e-to-create-artwork-for-medium-articles-and-or-educational-content-50e2af9662edLinks to an external site.
+
+See Using the OpenAI website for Dall-E (https://openai.com/dall-e-2/Links to an external site.)
+-----------------------------------------------------------------------------------
+Assignment-5
+20 Exam Questions Part A
+
+Create 20, 5-point moderately hard exam questions.  You will be graded on whether your questions are related to the topics listed on the sample exam page, their correctness, and whether or not they are trivial.    To generate using ChatGPT you might try the following:
+
+ 
+
+Can you generate a moderately hard multiple answers quiz question related to the choice of kernel size in a CNN?
+Sure! Here's a multiple-choice quiz question related to the choice of kernel size in a convolutional neural network (CNN):
+
+Suppose you are designing a CNN for image classification, and you are trying to choose the appropriate kernel size for your convolutional layers. Which of the following statements is true?
+
+A) A smaller kernel size will capture more fine-grained features in the image. B) A larger kernel size will capture more fine-grained features in the image. C) A smaller kernel size will result in a larger receptive field for the output feature map. D) A larger kernel size will result in a larger receptive field for the output feature map.
+
+Explanation:
+
+The choice of kernel size in a CNN determines the size of the local receptive field for each feature map. The receptive field is the portion of the input image that contributes to the output value of a single neuron in the feature map.
+
+A smaller kernel size will capture fewer features in the image, but it will result in a smaller receptive field for the output feature map. This can be useful for capturing fine-grained details in the image, such as edges or small patterns. However, using a smaller kernel size may also result in a loss of information or overfitting if the network becomes too focused on these fine-grained details.
+
+A larger kernel size will capture more features in the image, but it will result in a larger receptive field for the output feature map. This can be useful for capturing larger patterns or structures in the image, but it may also result in a loss of spatial resolution or reduced ability to capture fine-grained details.
+
+Therefore, the correct answer is (D) A larger kernel size will result in a larger receptive field for the output feature map.
+---------------------------------------------------------------------------------------
+Assignment-6
+Neural Network Type Classification | TMNIST
+
+Find a  "Hello World"  Handwritten Digit Classification (MNIST) tutorial and create a similar tutorial for one of the TMNIST data sets.
+
+The tutorial must be posted on Kaggle associated with the data set you use (see https://www.kaggle.com/nikbearbrown/tmnist-alphabet-94-characters/codeLinks to an external site. )   Your notebook MUST not be identical to the other notebooks associated with the data.
+
+Nice Notebook
+
+https://www.kaggle.com/code/sheshngupta/tminst-character-recognition-94-4-accuracyLinks to an external site.
+
+The TMNIST data sets
+
+TMNIST Alphabet (94 characters)
+Typography MNIST (TMNIST) with 94 characters and over 281,000 images
+
+https://www.kaggle.com/nikbearbrown/tmnist-alphabet-94-characters/Links to an external site.
+
+ 
+
+TMNIST-Glyphs (MNIST Style Glyph images)
+Typography MNIST (TMNIST): Over 500000 images of 1812 glyphs in 2990 font styles
+
+https://www.kaggle.com/nimishmagre/tmnist-glyphs-1812-charactersLinks to an external site.
+
+ 
+
+TMNIST (Typeface MNIST)
+A database of Typeface-based digits
+
+https://www.kaggle.com/nimishmagre/tmnist-typeface-mnistLinks to an external site.
+
+ 
+
+Nice model Notebook
+
+ 
+
+https://www.kaggle.com/code/sheshngupta/tminst-character-recognition-94-4-accuracyLinks to an external site.
+
+ 
+
+ 
+
+Grading Rubric
+
+40 % (accuracy)
+
+Minus 1 point for every 1% accuracy below 95% for TMNIST (Typeface MNIST)
+
+Minus 1 point for every 1% accuracy below 90% for TMNIST Alphabet (94 characters) or TMNIST-Glyphs (MNIST Style Glyph images)
+
+ 
+
+10 % (Uniqueness)
+
+Up to 10 points may be deducted if your notebook looks too similar to the other notebooks posted (i.e. You will get 10 points if it looks like you wrote it and didn't copy it)
+
+ 
+
+50 % (Explanation)
+
+How well did you explain the math, code, and ideas behind your neural network?
+-----------------------------------------------------------------------------------------
+Assignment-7
+Combine Data Cleaning, Feature Selection, Modeling, and Interpretability into one report (Every assignment except TMINST) and make it a cohesive readable report.
+
+ 
+
+The focus is readability and clarity.
+
+ 
+
+The following must be answered:
+
+1. What is the question?
+
+2. What did you do?
+
+3. How well did it work?
+
+4. What did you learn?
+---------------------------------------------------------------------------------------
+Assignment-8
+
+Interpret your models.
+
+1. Fit a linear model and interpret the regression coefficients
+
+2. Fit a tree-based model and interpret the nodes
+
+3.  Use auto ml to find the best model
+
+4. Run SHAP analysis on the models from steps 1, 2, and 3,   interpret the SHAP values and compare them with the other model interpretability methods.
+
+ 
+
+Grading:  80% if meet the above requirements
+
+Up to 20% for presentation and explanation.
+-------------------------------------------------------------------------------------
+Assignment-8
+Interpret your models.
+
+1. Fit a linear model and interpret the regression coefficients
+
+2. Fit a tree-based model and interpret the nodes
+
+3.  Use auto ml to find the best model
+
+4. Run SHAP analysis on the models from steps 1, 2, and 3,   interpret the SHAP values and compare them with the other model interpretability methods.
+
+ 
+
+Grading:  80% if meet the above requirements
+
+Up to 20% for presentation and explanation.
+--------------------------------------------------------------------------------
+Assignment-9
+Upload your Medium ID  https://medium.com/
+--------------------------------------------------------------------------------
+Assignment -10
+Upload 2 pages of visual notes/cheat sheets and 5 ChatGPT Quiz Questions and answers related to the exam. Two random student-generated ChatGPT quiz questions will be used assuming the question is relevant and the answers are correct.
+
+ChatGPT Helps Professor Bear Write Mathematics and Algorithms Quiz Questions https://link.medium.com/eb9NaR1bKxbLinks to an external site.
+
+ Midterms are next week. I HIGHLY recommend students use ChatGPT as their personal tutor.
+
+Hey ChatGPT, can you make a moderately hard multiple answers quiz question for linear regression?
+Hey ChatGPT, can you show me some worked examples of the Master Theorem?
+Hey ChatGPT, can you make a moderately hard multiple answers quiz question for Dijkstra's algorithm?
+Hey ChatGPT, what is an annuity, and can you show me some worked examples for a financial calculator?
+---------------------------------------------------------------------------------
+Assignment-11
+Use ChatGPT to visualize something related to Exam 1 and to write a multiple choice quiz question and add them to https://colab.research.google.com/drive/1aIEYAxnzxmeCAOqL6zIIbeHwD6v65pWs?usp=sharingLinks to an external site.
+
+For example,
+
+ 
+
+Can you write a moderately hard multiple answers quiz question and show the answers for X?
+
+Can you write a moderately hard multiple answers quiz question and show the answers for Normalization?
+---------------------------------------------------------------------------------
+Assignment-12
+This assignment was locked Mar 3 at 11:59pm.
+Use ChatGPT to visualize something related to Exam 1 and to write a multiple choice quiz question and add them to https://colab.research.google.com/drive/1aIEYAxnzxmeCAOqL6zIIbeHwD6v65pWs?usp=sharingLinks to an external site.
+
+For example,
+
+ 
+
+Can you write a moderately hard multiple answers quiz question and show the answers for X?
+
+Can you write a moderately hard multiple answers quiz question and show the answers for Normalization?
+---------------------------------------------------------------------------------
+Assignment-13
+AutoML
+
+In this assignment, you will an AutoML library like H2O.ai to create predictive models and interpret them. Find a significant relation for each algorithm of your choosing in your data. Create multivariate models.
+
+For the moment you will assume the data is good. In future assignments, you will check your data, fix data issues and do some feature engineering. 
+
+ 
+
+Starter code for AutoML is in this folder   https://github.com/aiskunks/YouTube/tree/main/A_Crash_Course_in_Statistical_Learning/AutoMLLinks to an external site.
+
+In particular, this notebook should get you started
+
+https://github.com/aiskunks/YouTube/blob/main/A_Crash_Course_in_Statistical_Learning/AutoML/CC_Kaggle_AutoML_Regression_Melbourne_Housing.ipynbLinks to an external site.
+Answer the following questions for all of the models:
+
+* Is the relationship significant?
+
+* Are any model assumptions violated?
+
+* Is there any multicollinearity in the model?
+
+* In the multivariate models are predictor variables independent of all the other predictor variables?
+
+* In in multivariate models rank the most significant predictor variables and exclude insignificant ones from the model.
+
+* Does the model make sense?
+
+* Does regularization help?
+
+* Which independent variables are significant?
+
+* Which hyperparameters are important?
+
+ 
+
+Scoring Rubric
+
+ 
+
+Did I explain my idea clearly? (10 Points)
+
+How effective are you at explaining what you are doing? You MUST write an abstract and a conclusion.
+
+Did I give my data to the TA to add to https://github.com/nikbearbrown/AI_Research_Group/tree/main/Kaggle_DatasetsLinks to an external site. ? (10 Points)
+
+A description of the data set and its fields must be given to a TA in markdown to be placed at https://github.com/nikbearbrown/AI_Research_Group/tree/main/Kaggle_DatasetsLinks to an external site.  under the appropriate directory (binary classification, multiclass classification, regression).  If the dataset is greater than 50Mb a randomly sampled version just under 50Mb must be created and that is noted in the markdown description.
+
+You MUST get approval for your dataset from the TAs.
+
+ 
+
+Did I explain my evaluation clearly? (15 Points)
+
+Just saying "accuracy" is not a clear explanation of an evaluation scheme. Clearly explain the evaluation scheme. Do the metrics make sense? You MUST explain how you are preventing overfitting.
+
+ 
+
+Tables, graphs, and charts must support your evaluation.
+
+It MUST run in Google Collab. You will also save the Google Collab notebook as a .ipynb notebook and upload that to Canvas . (5 Points)
+
+ 
+
+What code is yours and what have you adapted? (10 Points)
+
+You must explain what code you wrote and what you have done that is different. Failure to cite ANY code will result in a zero for this section.
+
+ 
+
+Did I explain my code clearly? (15 Points) Your code review score will be scaled to a range of 0 to 10 and be used for this score.
+
+ 
+
+Did I explain my licensing clearly? (5 Points) Failure to cite a clear license will result in a zero for this section.
+
+ 
+
+Answers to listed questions (30 Points)
+
+ 
+
+Answer the following questions for all of the models:
+
+* Is the relationship significant?
+
+* Are any model assumptions violated?
+
+* Is there any multicollinearity in the model?
+
+* In the multivariate models are predictor variables independent of all the other predictor variables?
+
+* In in multivariate models rank the most significant predictor variables and exclude insignificant ones from the model.
+
+* Does the model make sense?
+
+* Does regularization help?
+
+* Which independent variables are significant?
+
+* Which hyperparameters are important?
+
+* Coding professionalism?
+---------------------------------------------------------------------------------
+Assignment-14
+
+Kaggle contributor 
+
+Become a Kaggle contributor and send your Kaggle id to a TA for verification.
